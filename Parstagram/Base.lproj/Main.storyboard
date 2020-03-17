@@ -117,25 +117,36 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="456"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVV-g3-Ump">
-                                                    <rect key="frame" x="7" y="416" width="90" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVV-g3-Ump">
+                                                    <rect key="frame" x="-8" y="16" width="0.0" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ktM-2H-83m">
-                                                    <rect key="frame" x="8" y="8" width="398" height="400"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ktM-2H-83m">
+                                                    <rect key="frame" x="8" y="8" width="0.0" height="0.0"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="ktM-2H-83m" secondAttribute="height" multiplier="398:401" id="L3f-uY-2md"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Caption" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4g-ma-EoM">
-                                                    <rect key="frame" x="105" y="416" width="63" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4g-ma-EoM">
+                                                    <rect key="frame" x="-8" y="16" width="0.0" height="432"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="a4g-ma-EoM" firstAttribute="top" secondItem="ktM-2H-83m" secondAttribute="bottom" constant="8" id="3BX-wE-xR5"/>
+                                                <constraint firstItem="ktM-2H-83m" firstAttribute="top" secondItem="rwH-cp-ljp" secondAttribute="top" constant="8" id="Bsg-Zg-39y"/>
+                                                <constraint firstAttribute="trailing" secondItem="ktM-2H-83m" secondAttribute="trailing" constant="8" id="ViM-1Z-PlO"/>
+                                                <constraint firstItem="ktM-2H-83m" firstAttribute="leading" secondItem="rwH-cp-ljp" secondAttribute="leading" constant="8" id="Xvj-iv-q92"/>
+                                                <constraint firstItem="TVV-g3-Ump" firstAttribute="top" secondItem="ktM-2H-83m" secondAttribute="bottom" constant="8" id="Ycz-se-IrK"/>
+                                                <constraint firstItem="a4g-ma-EoM" firstAttribute="leading" secondItem="TVV-g3-Ump" secondAttribute="trailing" constant="8" id="bjT-fS-KBQ"/>
+                                                <constraint firstItem="TVV-g3-Ump" firstAttribute="leading" secondItem="rwH-cp-ljp" secondAttribute="leading" constant="-8" id="hGv-FW-59l"/>
+                                                <constraint firstAttribute="trailing" secondItem="a4g-ma-EoM" secondAttribute="trailing" constant="8" id="mfb-uB-z9T"/>
+                                                <constraint firstAttribute="bottom" secondItem="a4g-ma-EoM" secondAttribute="bottom" constant="8" id="o6w-x3-rZS"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="captionLabel" destination="a4g-ma-EoM" id="Ikb-Zc-hQS"/>
