@@ -16,6 +16,7 @@
 		E0511273241F45FF009155EC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0511272241F45FF009155EC /* FeedViewController.swift */; };
 		E0511275241F4C6A009155EC /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0511274241F4C6A009155EC /* CameraViewController.swift */; };
 		E0511277241F520B009155EC /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0511276241F520B009155EC /* PostCell.swift */; };
+		E0E5C1092429BB000037CC10 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E5C1082429BB000037CC10 /* CommentCell.swift */; };
 		FD4D228407C4226BE7808018 /* libPods-Parstagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49124A3725463EEDB95CF5BA /* libPods-Parstagram.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		E0511272241F45FF009155EC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		E0511274241F4C6A009155EC /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		E0511276241F520B009155EC /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E0E5C1082429BB000037CC10 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		F077AFBBBABF95BF033F0C50 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 				E051125A241F40CB009155EC /* AppDelegate.swift */,
 				E051125C241F40CB009155EC /* SceneDelegate.swift */,
 				E0511260241F40CB009155EC /* Main.storyboard */,
+				E0E5C1082429BB000037CC10 /* CommentCell.swift */,
 				E0511263241F40D1009155EC /* Assets.xcassets */,
 				E0511265241F40D1009155EC /* LaunchScreen.storyboard */,
 				E0511268241F40D1009155EC /* Info.plist */,
@@ -225,6 +228,7 @@
 				E0511273241F45FF009155EC /* FeedViewController.swift in Sources */,
 				E051125D241F40CB009155EC /* SceneDelegate.swift in Sources */,
 				E0511277241F520B009155EC /* PostCell.swift in Sources */,
+				E0E5C1092429BB000037CC10 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
